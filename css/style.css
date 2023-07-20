@@ -1,0 +1,68 @@
+/* Estilos para a logo */
+.logo {
+    max-width: 80%;
+    height: auto;
+}
+
+/* Estilos para as imagens do carousel */
+.carousel-img {
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+    filter: brightness(60%);
+}
+
+/* Estilos para os cards */
+.card {
+    margin: 20px;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Estilos para o footer */
+#footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(53, 87, 238);
+    text-align: center;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+/* Estilos para a lista de links no footer */
+.links-list {
+    list-style: none;
+    margin-top: 2rem;
+    display: grid;
+    gap: 10px;
+    text-align: justify;
+    color: white;
+}
+
+.links-list li a:hover {
+    color: gray;
+}
+
+.list-title {
+    margin-bottom: 1rem;
+}
+
+.contact-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos específicos para telas menores que 768px */
+@media screen and (max-width: 768px) {
+    .img-logo {
+        display: none;
+    }
+}
+
