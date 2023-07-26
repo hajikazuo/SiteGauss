@@ -29,7 +29,7 @@
     left: 0;
     width: 100%;
     height: auto;
-    background-color: rgb(53, 87, 238);
+    background-color: #0B6AA1;
     text-align: center;
     text-decoration: none;
     padding-top: 30px;
@@ -57,6 +57,10 @@
 .contact-link {
     color: #fff;
     text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #0598ED;
 }
 
 /* Estilos específicos para telas menores que 768px */
